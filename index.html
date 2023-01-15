@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
+  
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
+   
     <main>
       <section class=""card" id="html-section"> 
         <h2>HTML</h2>
@@ -23,12 +26,21 @@
           <li>child elements are html that is nestled in a parent element eg body->main->section tag relationship</li>
         </ul>
       </section>
+      
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>CSS notes go here</li>
+          <li>CSS can come in 3 forms. Inline which is in the written inside the element. This can also be written in the head element to effect everyone on the page. This is an Internal Style Sheet. External Style Sheets which has the code in a seperate file.</li>
+          <li>CSS rule goes: selector {property: value;}</li>
+          <li>selectors define what the rules apply to (elements or attributes)</li>
+          <li>declarations contain property to apply and the value of the property. I.e. the property and the value together</li>
+          <li>It is necessary to use the HTML link in the head element, so the HTML and the CSS files know about eachother</li>
+          <li>A class attribute allows you to stylize different elements of the same type, but differently. It'll apply to elements that are classed the same. This is done by using a .variable {declarations}</li>
+          <li>ELements are classed wihtin the first tag of the element. i.e. [chevron]section class="variable" [end chevron]</li>
+          <li>Colors can use hex codes or semantics</li>
         </ul>
       </section>
+      
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
@@ -41,6 +53,7 @@
           <li>git clone (URL) will copy a repo on the cloud onto your machine</li>
         </ul>
       </section>
+     
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
