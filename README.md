@@ -2,8 +2,7 @@
 
 ## Description
 
--This webpage is single, condensed version of notes acquired through the bootcamp module. 
--It serves this purpose, but its creation also provides a chance to build a foundation with Git Bash, Github, HTML, CSS and JavaScript before classes begin.
+This webpage is single, condensed version of notes acquired through the bootcamp module. It serves this purpose, but its creation also provides a chance to build a foundation with Git Bash, Github, HTML, CSS and JavaScript before classes begin.
 
 ## Installation
 
